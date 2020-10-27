@@ -1,4 +1,5 @@
 import React from 'react';
+import  './Group.scss'
 
 
 class Group extends React.Component {
