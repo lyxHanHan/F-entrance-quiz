@@ -1,44 +1,45 @@
-.title{
-    display:inline;
-    .button{
-        background-color: red;
-        float: right;
-        margin-top: -45px;
-    }
+.title {
+  display: inline;
+  .button {
+    background-color: red;
+    float: right;
+    margin-top: -45px;
+  }
 }
 
-.firstgroup{
-    margin-top: 20px;
-    text-align: center;
-    background-color: cadetblue;
+// TODO GTB-4: - 多个位置采用同样的样式，只用定义一个样式，让那些位置都指定这个class名即可；不用像下面这样出现重复代码：如定义一个.common-group {...}，然后吧Group组件中所有class=“firstgroup，secondgroup...”都改成common-group
+.firstgroup {
+  margin-top: 20px;
+  text-align: center;
+  background-color: cadetblue;
 }
 
-.secondgroup{
-    margin-top: 50px;
-    text-align: center;
-    background-color: cadetblue;
+.secondgroup {
+  margin-top: 50px;
+  text-align: center;
+  background-color: cadetblue;
 }
 
-.thirdgroup{
-    margin-top: 50px;
-    text-align: center;
-    background-color: cadetblue;
+.thirdgroup {
+  margin-top: 50px;
+  text-align: center;
+  background-color: cadetblue;
 }
 
-.forthgroup{
-    margin-top: 50px;
-    text-align: center;
-    background-color: cadetblue;
+.forthgroup {
+  margin-top: 50px;
+  text-align: center;
+  background-color: cadetblue;
 }
 
-.fifthgroup{
-    margin-top: 50px;
-    text-align: center;
-    background-color: cadetblue;
+.fifthgroup {
+  margin-top: 50px;
+  text-align: center;
+  background-color: cadetblue;
 }
 
-.sixthgroup{
-    margin-top: 50px;
-    text-align: center;
-    background-color: cadetblue;
+.sixthgroup {
+  margin-top: 50px;
+  text-align: center;
+  background-color: cadetblue;
 }

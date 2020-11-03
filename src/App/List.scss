@@ -1,13 +1,13 @@
-
-h2{
-    margin-top: 150px;
-    margin-left: 30px;
+h2 {
+  margin-top: 150px;
+  margin-left: 30px;
 }
-li{
-    float:left; 
-    display:inline;
-    padding-left: 60px;
+// TODO GTB-3: - 这里定义了display:inline/inline-block后，不用再设置float:left；当然最好尝试使用flex布局
+li {
+  float: left;
+  display: inline;
+  padding-left: 60px;
 }
-.add{
-    margin-left: 30px;
+.add {
+  margin-left: 30px;
 }
